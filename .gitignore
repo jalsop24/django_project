@@ -1,4 +1,7 @@
 Lib/
 Scripts/
 
+**/__pycache__
+
 pyvenv.cfg
+db.sqlite3
