@@ -140,7 +140,7 @@ class Choice(models.Model):
     is_correct = models.BooleanField(default=False)
 
     def __str__(self) -> str:
-        return f"Q: {str(self.question)} - A: \"{self.choice_text}\""
+        return f"ID: <{self.pk}> Q: {str(self.question)}  A: \"{self.choice_text}\""
 
 
 # <HINT> The submission model
